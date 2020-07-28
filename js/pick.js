@@ -16,7 +16,7 @@ function cans() {
     var bin = atob(b64);
     var crc = bin2hex(bin.slice(-16, -12));
     //var crc = bin.slice(-16,-12);
-    alert(crc);
+    //alert(crc);
     console.log(crc);
 }
 
