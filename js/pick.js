@@ -17,6 +17,7 @@ function cans() {
     var crc = bin2hex(bin.slice(-16, -12));
     //var crc = bin.slice(-16,-12);
     alert(crc);
+    console.log(crc);
 }
 
 function bin2hex(str) {
@@ -37,3 +38,4 @@ function int16_to_hex(i) {
     return result;
 }
 console.log("载入成功");
+cans();
